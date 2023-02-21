@@ -67,7 +67,7 @@ search.addEventListener("click", () => {
         default:
           image.src = "";
       }
-      cityName.innerHTML = ` The weather in the city <b>${json.name}</b>, ${json.sys.country} is `;
+      cityName.innerHTML = ` The weather in <b>${json.name}</b>, ${json.sys.country} is `;
       // tempRate.innerHTML = `<h4 ><i class="fa-solid fa-temperature-arrow-up"></i>: ${json.main.temp_max}°C   <i class="fa-solid fa-temperature-arrow-down"></i>: ${json.main.temp_min}°C</h4>`;
       temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
       description.innerHTML = `${json.weather[0].description}`;
