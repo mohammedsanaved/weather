@@ -56,7 +56,7 @@ search.addEventListener("click", () => {
           image.src = "images/snow.gif";
           break;
         case "Haze":
-          image.src = "images/haze.gif";
+          image.src = "images/haze.png";
           break;
         case "Mist":
           image.src = "images/mist.png";
